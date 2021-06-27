@@ -2,7 +2,7 @@ var http = require('http');
 
 http
   .createServer(function(req, res) {
-    const text = "Boilermaker.Net";
+    const text = "Boilermaker.Net!";
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/html')
     res.end(text)
